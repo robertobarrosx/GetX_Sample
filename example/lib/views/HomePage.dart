@@ -4,10 +4,6 @@ import '../controllers/SettingsController.dart';
 import '../controllers/home_controller.dart';
 
 class HomePage extends GetView<HomeController> {
-  // final TextEditingController _wordController = TextEditingController(text: '');
-  // final _ctrl = Get.put(PalindromoController());
-  // final _ctrlSettings = Get.put(SettingsController());
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
