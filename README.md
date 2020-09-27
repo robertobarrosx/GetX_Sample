@@ -12,16 +12,16 @@ Rename the folder to the one you want before run the code to create project
 flutter create --org=com.example --project-name="example" .
 ``
 
-run this code to create a splash screen, don't forget to swap the icon in the folder "assets/splash".
-
-``
-flutter pub pub run flutter_native_splash:create
-``
-
 run this code to create a icon launcher.
 
 ``
 flutter pub run flutter_launcher_icons:main
+``
+
+run this code to create a splash screen, don't forget to swap the icon in the folder "assets/splash".
+
+``
+flutter pub pub run flutter_native_splash:create
 ``
 
 ## Actually Screens

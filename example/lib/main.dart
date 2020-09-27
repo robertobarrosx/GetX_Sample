@@ -9,8 +9,8 @@ import 'dart:ui' as ui;
 Future<void> main() async {
   await GetStorage.init();
   runApp(GetMaterialApp(
-    translations: Messages(),
     locale: ui.window.locale,
+    translations: Messages(),
     fallbackLocale: Locale('en', 'US'),
     debugShowCheckedModeBanner: false,
     theme: MyThemes().light,

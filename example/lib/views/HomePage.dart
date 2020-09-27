@@ -46,8 +46,8 @@ class HomePage extends GetView<HomeController> {
               padding: const EdgeInsets.all(16),
               child: TextField(
                 onChanged: (value) => controller.verifyPalindromo(value),
-                keyboardType: TextInputType.text,
                 textInputAction: TextInputAction.done,
+                keyboardType: TextInputType.text,
                 maxLines: 1,
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
