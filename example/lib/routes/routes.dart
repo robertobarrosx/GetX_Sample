@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
 import '../bindings/home_binding.dart';
-
 import '../views/HomePage.dart';
 
 abstract class Routes {
