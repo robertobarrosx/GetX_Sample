@@ -26,9 +26,8 @@ flutter pub run flutter_launcher_icons:main
 
 ## Actually Screens
 
-<!-- ![1]() -->
-<!-- ![2]() -->
-<!-- ![3]() -->
+![1](https://raw.githubusercontent.com/robertobarrosx/GetX_Sample/master/example/assets//Screnshots/screen1.png)
+![2](https://raw.githubusercontent.com/robertobarrosx/GetX_Sample/master/example/assets/Screnshots/screen2.png)
 
 ## Getting Started
 
