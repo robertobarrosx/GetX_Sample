@@ -10,8 +10,7 @@ Future<void> main() async {
   await GetStorage.init();
   runApp(GetMaterialApp(
     translations: Messages(),
-    // locale: ui.window.locale,]
-    locale: Locale('en', 'US'),
+    locale: ui.window.locale,
     fallbackLocale: Locale('en', 'US'),
     debugShowCheckedModeBanner: false,
     theme: MyThemes().light,
