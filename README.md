@@ -9,7 +9,7 @@ Based on Palíndrome App From [Jadiel Santana](https://github.com/Jadiel-Santana
 Rename the folder to the one you want before run the code to create project
 
 ``
-flutter create --org=com.example --project-name="example" .
+flutter create --org=com.example --project-name="example"
 ``
 
 run this code to create a splash screen, don't forget to swap the icon in the folder "assets/splash".
