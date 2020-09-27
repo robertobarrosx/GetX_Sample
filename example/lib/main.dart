@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import './routes/routes.dart';
-import './themes/themes.dart';
-import './translation/translation.dart';
+import 'themes/themes.dart';
+import 'translation/translation.dart';
+import 'routes/app_pages.dart';
 import 'dart:ui' as ui;
 
 Future<void> main() async {
@@ -16,7 +16,7 @@ Future<void> main() async {
     theme: MyThemes().light,
     darkTheme: MyThemes().dark,
     themeMode: ThemeMode.system,
-    getPages: AppPages.pages,
+    getPages: AppPages.routes,
     initialRoute: Routes.HOME,
   ));
 }
