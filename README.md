@@ -6,7 +6,7 @@ Based on Palíndrome App From [Jadiel Santana](https://github.com/Jadiel-Santana
 
 ## How to Use
 
-Rename the folder to the one you want after run the code to create project
+Rename the folder to the one you want before run the code to create project
 
 ``
 flutter create --org=com.example --project-name="example" .
